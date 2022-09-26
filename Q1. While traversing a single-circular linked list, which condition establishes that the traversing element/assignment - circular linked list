@@ -1,0 +1,28 @@
+Q1. While traversing a single-circular linked list, which condition
+establishes that the traversing element/variable has reached the first
+element?
+Ans1. For traversing through the linked list we stop the traversal when we
+reach the first node again. Hence the condition imposed is “temp ==
+self.head” .If the condition is True the loop breaks.
+
+
+def printList(self):
+  temp = self.head
+  if self.head is not None :
+    while(True)
+      print(temp.data, end=" ")
+      temp = temp.next
+      if (temp == self.head):
+        break
+  
+  
+  Q2. What are the practical applications of a circular linked list?
+Ans2.
+1. Keeping track of which player’s turn it is in a multiplayer board game
+or a normal game.
+2. Audio or video streaming on the device (playlist of song or video starts
+again from the first song after the last song is finished playing.
+3. The forward and back button in the browser of the PC.
+4. Maintaining a directory of names.
+5. Undo function in photoshop or word or any photo/document software
+6. Performing arithmetic operations on long integers.
